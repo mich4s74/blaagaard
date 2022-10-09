@@ -131,7 +131,7 @@ main>section {
     background-image: url(./images/Image2.png);
     background-size: cover;
     background-position: 25%;
-    align-items: center;
+    align-items: end;
 }
 
 #fifth_section {
@@ -141,7 +141,7 @@ main>section {
     background-image: url(./images/image3.png);
     background-size: cover;
     background-position: 25%;
-    align-items: center;
+    align-items: start;
 }
 
 footer {
@@ -174,7 +174,7 @@ footer {
 
 @media (min-width: 1200px) {
     main>section {
-        padding: 75px 0 150px 0;
+        padding: 75px 0 75px 0;
     }
 
     #first_section .section_wrapper h1 {
@@ -183,6 +183,10 @@ footer {
 
     #first_section .section_wrapper p {
         max-width: 1000px;
+    }
+
+    #fifth_section {
+        padding: 25px 0 75px 0;
     }
 
     /* Span columns */
