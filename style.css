@@ -147,6 +147,7 @@ main>section {
 footer {
     padding: 2rem;
     background-color: #1D1D1B;
+    border-top: #707070 solid .5px;
 }
 
 /* TABLET LAYOUT - LARGER THAN 600 PX */
