@@ -1,0 +1,203 @@
+html {
+    font-size: 62.5%;
+    /* Sets default font-size to 10px */
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    color: #868686;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.section_wrapper {
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* COLORS & FONTS */
+
+section {
+    background-color: #1D1D1B;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 6rem;
+    color: #fff;
+    line-height: 1.125;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+h2,
+h3,
+h4 {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.125;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3.9rem;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    font-size: 3.1rem;
+    color: #BEBEBE;
+    margin: 3rem 0;
+}
+
+h4 {
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    color: #FBFBFB;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #0c99ed;
+}
+
+a:hover {}
+
+/* HEADER/NAV STYLES */
+
+header {}
+
+header .logo {}
+
+header nav ul {}
+
+nav ul li a {}
+
+nav ul li a:hover {}
+
+/* HOMEPAGE STYLES - MOBILE - SMALLER THAN 600 PX */
+main {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1920px) 1fr;
+}
+
+main>section {
+    padding: 75px 0 75px 0;
+    grid-column: 1/4;
+}
+
+#first_section {
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/image1.png);
+    background-size: cover;
+    background-position: 25%;
+    align-items: center;
+}
+
+#third_section {
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/Image2.png);
+    background-size: cover;
+    background-position: 25%;
+    align-items: center;
+}
+
+#fifth_section {
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/image3.png);
+    background-size: cover;
+    background-position: 25%;
+    align-items: center;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #1D1D1B;
+}
+
+/* TABLET LAYOUT - LARGER THAN 600 PX */
+
+@media (min-width: 600px) {
+    main>section {
+        padding: 50px 0 75px 0;
+    }
+
+    #first_section {
+        height: 60vh;
+    }
+
+    h2 {
+        margin: 4rem 0;
+    }
+
+    h3 {
+        margin: 4rem 0 2rem 0;
+    }
+}
+
+/* DESKTOP LAYOUT - LARGER THAN 1200 PX */
+
+@media (min-width: 1200px) {
+    main>section {
+        padding: 75px 0 150px 0;
+    }
+
+    #first_section .section_wrapper h1 {
+        font-size: 6rem;
+    }
+
+    #first_section .section_wrapper p {
+        max-width: 1000px;
+    }
+
+    /* Span columns */
+    .col_1-2 {
+        grid-column: 1 / 2;
+    }
+
+    .col_1-3 {
+        grid-column: 1 / 3;
+    }
+
+    .col_1-5 {
+        grid-column: 1 / 5;
+    }
+
+    .col_2-3 {
+        grid-column: 2 / 3;
+    }
+}
