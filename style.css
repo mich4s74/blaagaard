@@ -39,6 +39,12 @@ img {
 
 /* COLORS & FONTS */
 
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('myfont.woff2') format('woff2'),
+        url('myfont.woff') format('woff');
+}
+
 section {
     background-color: #1D1D1B;
 }
