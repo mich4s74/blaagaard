@@ -113,14 +113,8 @@ nav ul li a {}
 nav ul li a:hover {}
 
 /* HOMEPAGE STYLES - MOBILE - SMALLER THAN 599 PX */
-main {
-    display: grid;
-    grid-template-columns: 1fr minmax(0, 1920px) 1fr;
-}
-
 main>section {
     padding: 75px 0 75px 0;
-    grid-column: 1/4;
 }
 
 #first_section {
