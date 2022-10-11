@@ -99,14 +99,6 @@ h1 {
     text-transform: uppercase;
 }
 
-h2,
-h3,
-h4 {
-    font-family: "Nunito", sans-serif;
-    line-height: 1.125;
-    color: #fff;
-    text-transform: uppercase;
-}
 
 h2 {
     font-family: druk_wide_medium;
@@ -123,10 +115,10 @@ h3 {
 }
 
 h4 {
-    font-family: "Nunito", sans-serif;
-    font-size: 2.6rem;
-    font-weight: 400;
-    margin: 1rem 0;
+    font-family: druk_wide_medium;
+    font-size: 1.5rem;
+    color: #bebebe;
+    margin: 3rem 0;
 }
 
 p {
@@ -217,6 +209,11 @@ footer {
 
     h3 {
         margin: 4rem 0 2rem 0;
+    }
+
+    #quiz_img {
+        max-width: 50%;
+        margin-top: 5rem;
     }
 }
 
