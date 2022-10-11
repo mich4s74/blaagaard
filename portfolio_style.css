@@ -1,0 +1,99 @@
+
+
+
+.kampagnefilm {
+    margin: 0;
+    height: 20rem;
+}
+
+.kampagnefilm_formater {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 3%;
+margin: 0;
+height: 20rem;
+}
+
+.content_container_stills {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 3%; 
+}
+
+
+    .content_container_textbased, 
+    .content_container_videobased, 
+    .content_container_billedebased {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3%; 
+}
+        
+    
+
+
+@media (min-width: 599px) {
+    .kampagnefilm {
+        margin: 0;
+        height: 40rem;
+    }
+    
+    .kampagnefilm_formater {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3%;
+    margin: 0;
+    height: 40rem;
+    }
+
+
+
+
+
+
+    .section_wrapper {
+        max-width: 1920px;
+        width: 90%;
+        margin: 0 auto;
+        padding-right: 20%;
+      }
+    
+      .content_container_stills, .content_container_mockup
+      {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        gap: 3%; 
+    }
+      .content_container_textbased, 
+      .content_container_videobased, 
+      .content_container_billedebased {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 3%;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 1050px) {
+
+
+.kampagnefilm {
+    margin: 0;
+    height: 60rem;
+}
+
+.kampagnefilm_formater {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 3%;
+margin: 0;
+height: 60rem;
+}
+
+
+
+}
