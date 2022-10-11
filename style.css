@@ -224,6 +224,8 @@ footer {
   }
 }
 
+/* DESKTOP LAYOUT - LARGER THAN 1050 PX */
+
 @media (min-width: 1050px) {
   #second_section .section_wrapper p,
   #fourth_section .section_wrapper p,
