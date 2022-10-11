@@ -32,6 +32,7 @@ header {}
 
 .nav-links li a:hover {
   right: 7%;
+  transition: ease-in;
 }
 
 li,
@@ -43,4 +44,5 @@ a {
   font-family: druk_wide_medium;
   text-transform: uppercase;
   line-height: 3rem;
+  position: relative;
 }

@@ -102,6 +102,7 @@ h1 {
 h2 {
   font-family: druk_wide_medium;
   font-size: 3.9rem;
+  color: #fff;
   margin-bottom: 4rem;
   text-transform: uppercase;
 }
@@ -111,6 +112,7 @@ h3 {
   font-size: 3rem;
   color: #bebebe;
   margin: 3rem 0;
+  text-transform: uppercase;
 }
 
 h4 {
