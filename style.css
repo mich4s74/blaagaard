@@ -224,6 +224,14 @@ footer {
   }
 }
 
+@media (min-width: 1050px) {
+  #second_section .section_wrapper p,
+  #fourth_section .section_wrapper p,
+  #fifth_section .section_wrapper p {
+    max-width: 75%;
+  }
+}
+
 /* DESKTOP LAYOUT - LARGER THAN 1199 PX */
 
 @media (min-width: 1199px) {
