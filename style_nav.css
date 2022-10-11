@@ -33,7 +33,9 @@
   }
   
   .nav-links li a:hover {
-    color: white;
+    color: brown;
+    position: fixed;
+    right: 7%;
   }
   
   li,
