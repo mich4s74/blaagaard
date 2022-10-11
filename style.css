@@ -72,7 +72,18 @@ section {
 
 button {
   background-color: transparent;
+  border: 1px solid white;
   color: white;
+  padding: 1.6rem 4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: druk_wide_medium;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  box-shadow: inset 0px 0px 1rem 0px #ffffff;
+  transition: 0.2s;
 }
 
 h1 {
