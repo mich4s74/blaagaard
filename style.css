@@ -1,239 +1,236 @@
 html {
-  font-size: 62.5%;
-  /* Sets default font-size to 10px */
-  scroll-behavior: smooth;
-  scroll-padding-top: 90px;
+    font-size: 62.5%;
+    /* Sets default font-size to 10px */
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
-  color: #868686;
-  margin: 0;
-  padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    color: #868686;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
-  padding: 0;
+    padding: 0;
 }
 
 img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 2rem;
 }
 
 .section_wrapper {
-  max-width: 1920px;
-  width: 90%;
-  margin: 0 auto;
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* COLORS & FONTS */
 
 @font-face {
-  font-family: druk_wide_medium;
-  src: url(fonts/DrukWide-Medium-Trial.otf);
-}
-@font-face {
-  font-family: druk_wide_bold;
-  src: url(fonts/DrukWide-Bold-Trial.otf);
+    font-family: druk_wide_medium;
+    src: url(fonts/DrukWide-Medium-Trial.otf);
 }
 
 @font-face {
-  font-family: druk_bold;
-  src: url(/fonts/DrukText-Bold-Trial.otf);
-}
-@font-face {
-  font-family: druk_bold_italic;
-  src: url(/fonts/DrukText-BoldItalic-Trial.otf);
+    font-family: druk_wide_bold;
+    src: url(fonts/DrukWide-Bold-Trial.otf);
 }
 
 @font-face {
-  font-family: druk_heavy;
-  src: url(/fonts/Druk-Heavy-Trial.otf);
+    font-family: druk_bold;
+    src: url(/fonts/DrukText-Bold-Trial.otf);
 }
+
 @font-face {
-  font-family: druk_heavy_italic;
-  src: url(/fonts/Druk-HeavyItalic-Trial.otf);
+    font-family: druk_bold_italic;
+    src: url(/fonts/DrukText-BoldItalic-Trial.otf);
+}
+
+@font-face {
+    font-family: druk_heavy;
+    src: url(/fonts/Druk-Heavy-Trial.otf);
+}
+
+@font-face {
+    font-family: druk_heavy_italic;
+    src: url(/fonts/Druk-HeavyItalic-Trial.otf);
 }
 
 section {
-  background-color: #1d1d1b;
+    background-color: #1d1d1b;
 }
 
 button {
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
-  padding: 1.6rem 4rem;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-family: druk_wide_medium;
-  font-size: 1.4rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 1.6rem 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: druk_wide_medium;
+    font-size: 1.4rem;
 }
 
 button:hover {
-  box-shadow: inset 0px 0px 1.3rem 0px #ffffff;
-  transition: 0.3s;
+    box-shadow: inset 0px 0px 1.3rem 0px #ffffff;
+    transition: 0.3s;
 }
 
 h1 {
-  font-family: druk_bold_italic;
-  font-size: 6rem;
-  color: #fff;
-  line-height: 1.125;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
+    font-family: druk_bold_italic;
+    font-size: 6rem;
+    color: #fff;
+    line-height: 1.125;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-h2,
-h3,
-h4 {
-  font-family: "Nunito", sans-serif;
-  line-height: 1.125;
-  color: #fff;
-  text-transform: uppercase;
-}
 
 h2 {
-  font-family: druk_wide_medium;
-  font-size: 3.9rem;
-  margin-bottom: 4rem;
-  text-transform: uppercase;
+    font-family: druk_wide_medium;
+    font-size: 3.9rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
 }
 
 h3 {
-  font-family: druk_wide_medium;
-  font-size: 3rem;
-  color: #bebebe;
-  margin: 3rem 0;
+    font-family: druk_wide_medium;
+    font-size: 3rem;
+    color: #bebebe;
+    margin: 3rem 0;
 }
 
 h4 {
-  font-family: "Nunito", sans-serif;
-  font-size: 2.6rem;
-  font-weight: 400;
-  margin: 1rem 0;
+    font-family: druk_wide_medium;
+    font-size: 1.5rem;
+    color: #bebebe;
+    margin: 3rem 0;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.6;
-  color: #fbfbfb;
-  margin-bottom: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    color: #fbfbfb;
+    margin-bottom: 1.6rem;
 }
 
 a {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  color: #0c99ed;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #0c99ed;
 }
 
-a:hover {
-}
+a:hover {}
 
 /* HEADER/NAV STYLES */
 
-header {
-}
+header {}
 
-header .logo {
-}
+header .logo {}
 
-header nav ul {
-}
+header nav ul {}
 
-nav ul li a {
-}
+nav ul li a {}
 
-nav ul li a:hover {
-}
+nav ul li a:hover {}
 
 /* HOMEPAGE STYLES - MOBILE - SMALLER THAN 599 PX */
-main > section {
-  padding: 75px 0 75px 0;
+main>section {
+    padding: 75px 0 75px 0;
 }
 
 #first_section {
-  display: grid;
-  width: 100%;
-  height: 76vh;
-  background-image: url(./images/image1.png);
-  background-size: cover;
-  background-position: 25%;
-  align-items: center;
+    display: grid;
+    width: 100%;
+    height: 76vh;
+    background-image: url(./images/image1.png);
+    background-size: cover;
+    background-position: 25%;
+    align-items: center;
 }
 
 #third_section {
-  display: grid;
-  width: 100%;
-  height: 70vh;
-  background-image: url(./images/Image2.png);
-  background-size: cover;
-  background-position: 25%;
-  align-items: end;
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/Image2.png);
+    background-size: cover;
+    background-position: 25%;
+    align-items: end;
+}
+
+#quiz_img {
+    max-width: 75%;
 }
 
 #fifth_section {
-  display: grid;
-  width: 100%;
-  height: 70vh;
-  background-image: url(./images/image3.png);
-  background-size: cover;
-  background-position: 25%;
-  align-items: start;
+    display: grid;
+    width: 100%;
+    background-image: url(./images/image3.png);
+    background-size: cover;
+    background-position: 25%;
+    align-items: start;
 }
 
 footer {
-  padding: 2rem;
-  background-color: #1d1d1b;
-  border-top: #707070 solid 0.5px;
+    padding: 2rem;
+    background-color: #1d1d1b;
+    border-top: #707070 solid 0.5px;
 }
 
 /* TABLET LAYOUT - LARGER THAN 599 PX */
 
 @media (min-width: 599px) {
-  main > section {
-    padding: 50px 0 75px 0;
-  }
+    main>section {
+        padding: 50px 0 75px 0;
+    }
 
-  #first_section {
-    height: 60vh;
-  }
+    #first_section {
+        height: 60vh;
+    }
 
-  h2 {
-    margin: 4rem 0;
-  }
+    h2 {
+        margin: 4rem 0;
+    }
 
-  h3 {
-    margin: 4rem 0 2rem 0;
-  }
+    h3 {
+        margin: 4rem 0 2rem 0;
+    }
+
+    #quiz_img {
+        max-width: 50%;
+        margin-top: 5rem;
+    }
 }
 
 /* DESKTOP LAYOUT - LARGER THAN 1199 PX */
 
 @media (min-width: 1199px) {
-  main > section {
-    padding: 75px 0 75px 0;
-  }
+    main>section {
+        padding: 75px 0 75px 0;
+    }
 
-  #second_section .section_wrapper p,
-  #fourth_section .section_wrapper p,
-  #fifth_section .section_wrapper p {
-    max-width: 70%;
-  }
+    #second_section .section_wrapper p,
+    #fourth_section .section_wrapper p,
+    #fifth_section .section_wrapper p {
+        max-width: 70%;
+    }
 
-  #fifth_section {
-    padding: 25px 0 75px 0;
-  }
+    #fifth_section {
+        padding: 25px 0 75px 0;
+    }
 }
