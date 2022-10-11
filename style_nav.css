@@ -30,9 +30,12 @@ header {}
   text-align: right;
 }
 
-.nav-links li a:hover {
-  right: 7%;
- 
+.nav-links li {
+  transition: transform 250ms;
+}
+
+.nav-links li:hover {
+  transform: translateX(-5rem);
 }
 
 li,
