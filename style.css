@@ -102,6 +102,7 @@ h4 {
   font-family: "Nunito", sans-serif;
   line-height: 1.125;
   color: #fff;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -112,8 +113,8 @@ h2 {
 }
 
 h3 {
-  font-family: "Nunito", sans-serif;
-  font-size: 3.1rem;
+  font-family: druk_wide_medium;
+  font-size: 3rem;
   color: #bebebe;
   margin: 3rem 0;
 }
@@ -165,7 +166,7 @@ main > section {
 #first_section {
   display: grid;
   width: 100%;
-  height: 70vh;
+  height: 76vh;
   background-image: url(./images/image1.png);
   background-size: cover;
   background-position: 25%;
