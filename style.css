@@ -82,8 +82,8 @@ button {
 }
 
 button:hover {
-  box-shadow: inset 0px 0px 1rem 0px #ffffff;
-  transition: 0.2s;
+  box-shadow: inset 0px 0px 1.3rem 0px #ffffff;
+  transition: 0.3s;
 }
 
 h1 {
