@@ -30,8 +30,12 @@ header {}
   text-align: right;
 }
 
-.nav-links li a:hover {
-  right: 7%;
+.nav-links li {
+  transition: transform 250ms;
+}
+
+.nav-links li:hover {
+  transform: translateX(-5rem);
 }
 
 li,
@@ -43,4 +47,5 @@ a {
   font-family: druk_wide_medium;
   text-transform: uppercase;
   line-height: 3rem;
+  position: relative;
 }
