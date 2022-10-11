@@ -19,7 +19,7 @@ header {}
 
 .main-menu {
   position: fixed;
-  top: 30%;
+  top: 40%;
   right: 3%;
 }
 
@@ -31,7 +31,9 @@ header {}
 }
 
 .nav-links li a:hover {
-  color: white;
+  color: brown;
+  position: fixed;
+  right: 7%;
 }
 
 li,
