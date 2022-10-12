@@ -123,7 +123,7 @@ h4 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   color: #fbfbfb;
   margin-bottom: 1.6rem;
@@ -131,7 +131,7 @@ p {
 }
 
 a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: #0c99ed;
 }
@@ -262,9 +262,5 @@ footer {
   #third_section,
   #fifth_section {
     height: 92vh;
-  }
-
-  #kalender_img img {
-    max-width: 75%;
   }
 }
