@@ -26,6 +26,10 @@
   transform: translateX(-2rem);
 }
 
+.nav-links li:focus {
+  text-decoration: underline white solid 2px;
+}
+
 li,
 a {
   font-size: 18px;
