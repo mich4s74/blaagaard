@@ -52,7 +52,7 @@ a {
   transition: transform 0.75s ease, opacity 0.75s ease;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1070px) {
   .burger {
     display: block;
     position: fixed;

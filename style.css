@@ -135,28 +135,22 @@ a {
   color: #0c99ed;
 }
 
-a:hover {
-}
+a:hover {}
 
 /* HEADER/NAV STYLES */
 
-header {
-}
+header {}
 
-header .logo {
-}
+header .logo {}
 
-header nav ul {
-}
+header nav ul {}
 
-nav ul li a {
-}
+nav ul li a {}
 
-nav ul li a:hover {
-}
+nav ul li a:hover {}
 
 /* HOMEPAGE STYLES - MOBILE - SMALLER THAN 599 PX */
-main > section {
+main>section {
   padding: 75px 0 75px 0;
 }
 
@@ -203,7 +197,7 @@ footer {
 /* TABLET LAYOUT - LARGER THAN 599 PX */
 
 @media (min-width: 599px) {
-  main > section {
+  main>section {
     padding: 50px 0 75px 0;
   }
 
@@ -227,11 +221,16 @@ footer {
   #fifth_section {
     height: 70vh;
   }
+
+  #kalender_img img {
+    max-width: 80%;
+  }
 }
 
 /* DESKTOP LAYOUT - LARGER THAN 1050 PX */
 
 @media (min-width: 1050px) {
+
   #second_section .section_wrapper p,
   #fourth_section .section_wrapper p,
   #fifth_section .section_wrapper p {
@@ -242,7 +241,7 @@ footer {
 /* DESKTOP LAYOUT - LARGER THAN 1199 PX */
 
 @media (min-width: 1199px) {
-  main > section {
+  main>section {
     padding: 75px 0 75px 0;
   }
 
