@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style_nav.css">
     <link rel="stylesheet" href="portfolio_style.css">
     <!-- Title & description -->
@@ -22,9 +22,10 @@
 <body>
     <main>
         <section id="first_section">
-            <header>
+            <div class="section_wrapper">
+                <header>
                     <img class="logo" src="images/blaagaard_logo.png" alt="logo" />
-                    <nav class="main-menu">
+                    <nav class="main-nav main-menu">
                         <ul class="nav-links">
                             <li><a href="index.html"> FORSIDE</a></li>
                             <li><a href="portfolio.html"> PORTFOLIO</a></li>
@@ -33,8 +34,14 @@
                             <li><a href="https://www.instagram.com/blaagaardteater/" target="_blank"> INSTAGRAM</a></li>
                             <li><a href="https://www.facebook.com/blaagaardteater/" target="_blank"> FACEBOOK</a></li>
                         </ul>
+                        <div class="burger">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
                     </nav>
-            </header>
+                </header>
+            </div>
         </section>
         <section id="second_section_portfolio">
             <div class="section_wrapper">
@@ -42,43 +49,38 @@
                 <h1>VIDEO</h1>
                 <h3>LANG KAMPAGNEFILM</h3>
                 <figure class="kampagnefilm">
-                    <iframe width="100%" height="100%"
-                    src="https://www.youtube.com/embed/BOcv5zR9XmY">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BOcv5zR9XmY">
                     </iframe>
                 </figure>
                 <br>
                 <h3>LANG KAMPAGNEFILM I ANDRE FORMATER </h3>
 
                 <figure class="kampagnefilm_formater">
-                    <iframe width="100%" height="100%"
-                    src="https://www.youtube.com/embed/QXWQ8JlSmDc">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QXWQ8JlSmDc">
                     </iframe>
 
-                    <iframe width="100%" height="100%"
-                    src="https://www.youtube.com/embed/cqSHex33I38">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/cqSHex33I38">
                     </iframe>
                 </figure>
 
                 <br>
                 <h3>KORT KAMPAGNEFILM NO 1</h3>
                 <figure class="kampagnefilm">
-                    <iframe width="100%" height="100%"
-                    src="https://www.youtube.com/embed/lp_J5E2DmBw">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lp_J5E2DmBw">
                     </iframe>
 
                 </figure>
                 <br>
                 <h3>KORT KAMPAGNEFILM NO 2</h3>
                 <figure class="kampagnefilm">
-                    <iframe width="100%" height="100%"
-                    src="https://www.youtube.com/embed/kHni8fY97js">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kHni8fY97js">
                     </iframe>
                 </figure>
             </div>
 
         </section>
 
-        <section id="third_section_portfolio">   
+        <section id="third_section_portfolio">
             <div class="section_wrapper">
 
                 <h1>BILLEDER</h1>
@@ -108,7 +110,7 @@
                     <img src="/images/textbasseret_høj2.webp" alt="">
                     <img src="/images/textbasseret_høj3.webp" alt="">
                     <img src="/images/textbasseret_høj4.webp" alt="">
-    
+
                     <img src="/images/textbasseret_kva1.webp" alt="">
                     <img src="/images/textbasseret_kva2.webp" alt="">
                     <img src="/images/textbasseret_kva3.webp" alt="">
@@ -117,7 +119,7 @@
                 </div>
             </div>
         </section>
- 
+
         <section id="fifth_section_portfolio">
             <div class="section_wrapper">
 
@@ -165,21 +167,13 @@
                     <img src="/images/instafeed.webp" alt="">
                     <img src="/images/post.webp" alt="">
                     <img src="/images/instastory.webp" alt="">
-    
+
                     <img src="/images/instafeed_billede.webp" alt="">
                     <img src="/images/post_billede.webp" alt="">
                     <img src="/images/instastory_billede.webp" alt="">
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
     </main>
     <footer>
         <div class="section_wrapper">
@@ -187,5 +181,6 @@
         </div>
     </footer>
 </body>
+<script src="header.js"></script>
 
 </html>
