@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style_nav.css">
     <!-- Title & description -->
     <title>Blaagaard Teater - Landing Page</title>
@@ -21,9 +21,10 @@
 <body>
     <main>
         <section id="first_section">
-            <header>
+            <div class="section_wrapper">
+                <header>
                     <img class="logo" src="images/blaagaard_logo.png" alt="logo" />
-                    <nav class="main-menu">
+                    <nav class="main-nav main-menu">
                         <ul class="nav-links">
                             <li><a href="index.html"> FORSIDE</a></li>
                             <li><a href="portfolio.html"> PORTFOLIO</a></li>
@@ -32,9 +33,13 @@
                             <li><a href="https://www.instagram.com/blaagaardteater/" target="_blank"> INSTAGRAM</a></li>
                             <li><a href="https://www.facebook.com/blaagaardteater/" target="_blank"> FACEBOOK</a></li>
                         </ul>
+                        <div class="burger">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
                     </nav>
-            </header>
-            <div class="section_wrapper">
+                </header>
             </div>
         </section>
         <section id="second_section">
@@ -74,7 +79,8 @@
             <div class="section_wrapper">
                 <h1>Bliv en del af noget stort</h1>
                 <h3>Vores events</h3>
-                <p>Her hos Blaagaard Teater afholder vi forskellige events, og vi håber meget på, at du har lyst til at deltage.  Vores eventkalender kan ses nedenfor, hvor du også kan tilmelde dig.
+                <p>Her hos Blaagaard Teater afholder vi forskellige events, og vi håber meget på, at du har lyst til at
+                    deltage. Vores eventkalender kan ses nedenfor, hvor du også kan tilmelde dig.
                 </p>
             </div>
         </section>
@@ -97,5 +103,6 @@
         </div>
     </footer>
 </body>
+<script src="header.js"></script>
 
 </html>
